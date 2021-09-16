@@ -2,7 +2,7 @@
   "name": "scss-demo",
   "version": "1.0.0",
   "description": "This is a scss demo",
-  "main": "sass-demo1.html",
+  "main": "index.html",
   "scripts": {
     "lite": "lite-server",
     "scss": "node-sass -o css/ css/",
@@ -16,7 +16,7 @@
   "devDependencies": {
     "lite-server": "^2.3.0",
     "node-sass": "^4.14.1",
-    "onchange": "^3.3.0",
+    "onchange": "^7.1.0",
     "parallelshell": "^3.0.1"
   },
   "dependencies": {

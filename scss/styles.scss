@@ -1,4 +1,9 @@
 @import "color.scss";
+@mixin leftstyle {
+    height: 100%;
+    width: 69%;
+    position: relative;
+}
 
 //Global
 * {
@@ -18,9 +23,7 @@
 
     .left {
         background-color: $left-color;
-        height: 100%;
-        width: 69%;
-        position: relative;
+        @include leftstyle;
     }
 
     .right {
