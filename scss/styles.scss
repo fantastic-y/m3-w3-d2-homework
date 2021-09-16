@@ -1,13 +1,13 @@
-@import "color.scss"
+@import "color.scss";
 
 //Global
 * {
-    color: ;
+    color: $font-color;
     font-size: 1.2rem;
 }
 
 .container {
-    background-color: ;
+    background-color: $container-color;
     border: 1px solid #000;
     display: flex;
     height: 500px;
@@ -17,21 +17,21 @@
     width: 50%;
 
     .left {
-        background-color: ;
+        background-color: $left-color;
         height: 100%;
         width: 69%;
         position: relative;
     }
 
     .right {
-        background-color: ;
+        background-color: $right-color ;
         height: 100%;
         position: relative;
         width: 29%;
 
         .button {
-            background-color: ;
-            color: ;
+            background-color: $button-color ;
+            color: $font-color ;
             border: 0;
             border-radius: 10px;
             cursor: pointer;
